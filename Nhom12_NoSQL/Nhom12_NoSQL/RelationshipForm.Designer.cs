@@ -31,12 +31,12 @@ namespace Nhom12_NoSQL
         {
             this.label1 = new System.Windows.Forms.Label();
             this.tbQuanHe = new System.Windows.Forms.DataGridView();
+            this.txtName = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.colGioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colHoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colQuanHe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtName = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.tbQuanHe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -65,28 +65,9 @@ namespace Nhom12_NoSQL
             this.tbQuanHe.Location = new System.Drawing.Point(6, 19);
             this.tbQuanHe.Name = "tbQuanHe";
             this.tbQuanHe.RowHeadersVisible = false;
+            this.tbQuanHe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.tbQuanHe.Size = new System.Drawing.Size(626, 285);
             this.tbQuanHe.TabIndex = 0;
-            // 
-            // colGioiTinh
-            // 
-            this.colGioiTinh.HeaderText = "GT";
-            this.colGioiTinh.Name = "colGioiTinh";
-            // 
-            // colHoTen
-            // 
-            this.colHoTen.HeaderText = "Họ và tên";
-            this.colHoTen.Name = "colHoTen";
-            // 
-            // colNgaySinh
-            // 
-            this.colNgaySinh.HeaderText = "Ngày sinh";
-            this.colNgaySinh.Name = "colNgaySinh";
-            // 
-            // colQuanHe
-            // 
-            this.colQuanHe.HeaderText = "Quan hệ";
-            this.colQuanHe.Name = "colQuanHe";
             // 
             // txtName
             // 
@@ -108,6 +89,26 @@ namespace Nhom12_NoSQL
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin";
+            // 
+            // colGioiTinh
+            // 
+            this.colGioiTinh.HeaderText = "Giới tính";
+            this.colGioiTinh.Name = "colGioiTinh";
+            // 
+            // colHoTen
+            // 
+            this.colHoTen.HeaderText = "Họ và tên";
+            this.colHoTen.Name = "colHoTen";
+            // 
+            // colNgaySinh
+            // 
+            this.colNgaySinh.HeaderText = "Ngày sinh";
+            this.colNgaySinh.Name = "colNgaySinh";
+            // 
+            // colQuanHe
+            // 
+            this.colQuanHe.HeaderText = "Quan hệ";
+            this.colQuanHe.Name = "colQuanHe";
             // 
             // RelationshipForm
             // 
@@ -132,10 +133,10 @@ namespace Nhom12_NoSQL
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView tbQuanHe;
         private System.Windows.Forms.Label txtName;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colHoTen;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgaySinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colQuanHe;
-        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -15,9 +15,6 @@ namespace Nhom12_NoSQL
     {
         private AccountController accountController;
         private string username;
-
-        public string Username { get => username; set => username = value; }
-
         public AccountForm(string username)
         {
             InitializeComponent();
@@ -25,17 +22,14 @@ namespace Nhom12_NoSQL
             this.accountController = new AccountController();
             MaximizeBox = false;
         }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void AccountForm_Load(object sender, EventArgs e)
         {
             txtAccountName.Text = username;
         }
-
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             string accountName = txtAccountName.Text;

@@ -68,7 +68,7 @@ namespace Nhom12_NoSQL
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Location = new System.Drawing.Point(65, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 18);
             this.label2.TabIndex = 1;
@@ -78,7 +78,7 @@ namespace Nhom12_NoSQL
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 110);
+            this.label3.Location = new System.Drawing.Point(65, 105);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 18);
             this.label3.TabIndex = 2;
@@ -88,7 +88,7 @@ namespace Nhom12_NoSQL
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 150);
+            this.label4.Location = new System.Drawing.Point(65, 145);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 18);
             this.label4.TabIndex = 3;
@@ -98,7 +98,7 @@ namespace Nhom12_NoSQL
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 194);
+            this.label5.Location = new System.Drawing.Point(65, 189);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 18);
             this.label5.TabIndex = 4;
@@ -108,7 +108,7 @@ namespace Nhom12_NoSQL
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 238);
+            this.label6.Location = new System.Drawing.Point(65, 233);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(107, 18);
             this.label6.TabIndex = 5;
@@ -118,7 +118,7 @@ namespace Nhom12_NoSQL
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 279);
+            this.label7.Location = new System.Drawing.Point(65, 274);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(132, 18);
             this.label7.TabIndex = 6;
@@ -128,7 +128,7 @@ namespace Nhom12_NoSQL
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(12, 322);
+            this.label8.Location = new System.Drawing.Point(65, 317);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(140, 18);
             this.label8.TabIndex = 7;
@@ -138,27 +138,27 @@ namespace Nhom12_NoSQL
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(12, 365);
+            this.label9.Location = new System.Drawing.Point(65, 360);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(148, 18);
             this.label9.TabIndex = 8;
-            this.label9.Text = "Độ tuổi từ 17 đến 35 :";
+            this.label9.Text = "Độ tuổi từ 18 đến 35 :";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(12, 407);
+            this.label10.Location = new System.Drawing.Point(65, 402);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(148, 18);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Độ tuổi từ 35 đến 60 :";
+            this.label10.Text = "Độ tuổi từ 36 đến 60 :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(12, 445);
+            this.label11.Location = new System.Drawing.Point(65, 440);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(66, 18);
             this.label11.TabIndex = 10;
@@ -182,7 +182,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtTongSoTv.AutoSize = true;
             this.txtTongSoTv.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTongSoTv.Location = new System.Drawing.Point(175, 69);
+            this.txtTongSoTv.Location = new System.Drawing.Point(228, 64);
             this.txtTongSoTv.Name = "txtTongSoTv";
             this.txtTongSoTv.Size = new System.Drawing.Size(137, 18);
             this.txtTongSoTv.TabIndex = 12;
@@ -192,7 +192,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtDaMat.AutoSize = true;
             this.txtDaMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDaMat.Location = new System.Drawing.Point(175, 110);
+            this.txtDaMat.Location = new System.Drawing.Point(228, 105);
             this.txtDaMat.Name = "txtDaMat";
             this.txtDaMat.Size = new System.Drawing.Size(56, 18);
             this.txtDaMat.TabIndex = 13;
@@ -202,7 +202,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtConSong.AutoSize = true;
             this.txtConSong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConSong.Location = new System.Drawing.Point(175, 150);
+            this.txtConSong.Location = new System.Drawing.Point(228, 145);
             this.txtConSong.Name = "txtConSong";
             this.txtConSong.Size = new System.Drawing.Size(73, 18);
             this.txtConSong.TabIndex = 14;
@@ -212,7 +212,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtThanhVienNam.AutoSize = true;
             this.txtThanhVienNam.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThanhVienNam.Location = new System.Drawing.Point(175, 194);
+            this.txtThanhVienNam.Location = new System.Drawing.Point(228, 189);
             this.txtThanhVienNam.Name = "txtThanhVienNam";
             this.txtThanhVienNam.Size = new System.Drawing.Size(112, 18);
             this.txtThanhVienNam.TabIndex = 15;
@@ -222,7 +222,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtThanhVienNu.AutoSize = true;
             this.txtThanhVienNu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThanhVienNu.Location = new System.Drawing.Point(175, 238);
+            this.txtThanhVienNu.Location = new System.Drawing.Point(228, 233);
             this.txtThanhVienNu.Name = "txtThanhVienNu";
             this.txtThanhVienNu.Size = new System.Drawing.Size(99, 18);
             this.txtThanhVienNu.TabIndex = 16;
@@ -232,7 +232,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtDoTuoi1.AutoSize = true;
             this.txtDoTuoi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDoTuoi1.Location = new System.Drawing.Point(175, 279);
+            this.txtDoTuoi1.Location = new System.Drawing.Point(228, 274);
             this.txtDoTuoi1.Name = "txtDoTuoi1";
             this.txtDoTuoi1.Size = new System.Drawing.Size(57, 18);
             this.txtDoTuoi1.TabIndex = 17;
@@ -242,7 +242,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtDoTuoi2.AutoSize = true;
             this.txtDoTuoi2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDoTuoi2.Location = new System.Drawing.Point(175, 322);
+            this.txtDoTuoi2.Location = new System.Drawing.Point(228, 317);
             this.txtDoTuoi2.Name = "txtDoTuoi2";
             this.txtDoTuoi2.Size = new System.Drawing.Size(65, 18);
             this.txtDoTuoi2.TabIndex = 18;
@@ -252,7 +252,7 @@ namespace Nhom12_NoSQL
             // 
             this.txtDoTuoi5.AutoSize = true;
             this.txtDoTuoi5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDoTuoi5.Location = new System.Drawing.Point(175, 445);
+            this.txtDoTuoi5.Location = new System.Drawing.Point(228, 440);
             this.txtDoTuoi5.Name = "txtDoTuoi5";
             this.txtDoTuoi5.Size = new System.Drawing.Size(86, 18);
             this.txtDoTuoi5.TabIndex = 19;
@@ -262,21 +262,21 @@ namespace Nhom12_NoSQL
             // 
             this.txtDoTuoi4.AutoSize = true;
             this.txtDoTuoi4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDoTuoi4.Location = new System.Drawing.Point(175, 407);
+            this.txtDoTuoi4.Location = new System.Drawing.Point(228, 402);
             this.txtDoTuoi4.Name = "txtDoTuoi4";
             this.txtDoTuoi4.Size = new System.Drawing.Size(73, 18);
             this.txtDoTuoi4.TabIndex = 20;
-            this.txtDoTuoi4.Text = "35-60 tuổi";
+            this.txtDoTuoi4.Text = "36-60 tuổi";
             // 
             // txtDoTuoi3
             // 
             this.txtDoTuoi3.AutoSize = true;
             this.txtDoTuoi3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDoTuoi3.Location = new System.Drawing.Point(175, 365);
+            this.txtDoTuoi3.Location = new System.Drawing.Point(228, 360);
             this.txtDoTuoi3.Name = "txtDoTuoi3";
             this.txtDoTuoi3.Size = new System.Drawing.Size(73, 18);
             this.txtDoTuoi3.TabIndex = 21;
-            this.txtDoTuoi3.Text = "17-35 tuổi";
+            this.txtDoTuoi3.Text = "18-35 tuổi";
             // 
             // StatisticForm
             // 

@@ -56,7 +56,6 @@ E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\bin\Debug\System.Threading.Ta
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\bin\Debug\System.ValueTuple.xml
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.csproj.AssemblyReference.cache
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.AccountForm.resources
-E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.InformationForm.resources
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.LoginForm.resources
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.MainForm.resources
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.Properties.Resources.resources
@@ -68,3 +67,9 @@ E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.csproj
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.csproj.CopyComplete
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.exe
 E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.pdb
+E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.EducationForm.resources
+E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.JobInfoForm.resources
+E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.BeginningForm.resources
+E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\bin\Debug\Newtonsoft.Json.dll
+E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\bin\Debug\Newtonsoft.Json.xml
+E:\Project\PhanMemGiaPha\Nhom12_NoSQL\Nhom12_NoSQL\obj\Debug\Nhom12_NoSQL.ThongTinDongHoForm.resources

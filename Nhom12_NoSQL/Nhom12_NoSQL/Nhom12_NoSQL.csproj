@@ -39,6 +39,9 @@
     <Reference Include="Neo4j.Driver, Version=5.23.33.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Neo4j.Driver.5.23.0\lib\netstandard2.0\Neo4j.Driver.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -80,12 +83,28 @@
     <Compile Include="AccountForm.Designer.cs">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controller\AccountController.cs" />
-    <Compile Include="InformationForm.cs">
+    <Compile Include="BeginningForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InformationForm.Designer.cs">
-      <DependentUpon>InformationForm.cs</DependentUpon>
+    <Compile Include="BeginningForm.Designer.cs">
+      <DependentUpon>BeginningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\AccountController.cs" />
+    <Compile Include="Controller\GiaoDucController.cs" />
+    <Compile Include="Controller\LienLacController.cs" />
+    <Compile Include="Controller\NgheNghiepController.cs" />
+    <Compile Include="Controller\ThanhVienController.cs" />
+    <Compile Include="EducationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EducationForm.Designer.cs">
+      <DependentUpon>EducationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobInfoForm.Designer.cs">
+      <DependentUpon>JobInfoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -99,6 +118,10 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\GiaoDuc.cs" />
+    <Compile Include="Model\LienLac.cs" />
+    <Compile Include="Model\NgheNghiep.cs" />
+    <Compile Include="Model\ThanhVien.cs" />
     <Compile Include="NoSQL_Connection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,11 +143,23 @@
     <Compile Include="StatisticForm.Designer.cs">
       <DependentUpon>StatisticForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinDongHoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinDongHoForm.Designer.cs">
+      <DependentUpon>ThongTinDongHoForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InformationForm.resx">
-      <DependentUpon>InformationForm.cs</DependentUpon>
+    <EmbeddedResource Include="BeginningForm.resx">
+      <DependentUpon>BeginningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EducationForm.resx">
+      <DependentUpon>EducationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobInfoForm.resx">
+      <DependentUpon>JobInfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -151,6 +186,9 @@
     <EmbeddedResource Include="StatisticForm.resx">
       <DependentUpon>StatisticForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinDongHoForm.resx">
+      <DependentUpon>ThongTinDongHoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -174,17 +212,22 @@
     <Content Include="Images\bin.png" />
     <Content Include="Images\close.png" />
     <Content Include="Images\couple.png" />
+    <Content Include="Images\database.png" />
     <Content Include="Images\diskette.png" />
+    <Content Include="Images\edit.png" />
     <Content Include="Images\family.png" />
     <Content Include="Images\lock.png" />
     <Content Include="Images\loginImage.png" />
     <Content Include="Images\logout.png" />
     <Content Include="Images\parents.png" />
     <Content Include="Images\playtime.png" />
+    <Content Include="Images\profile.png" />
+    <Content Include="Images\save-data.png" />
     <Content Include="Images\search.png" />
     <Content Include="Images\strong-password.png" />
     <Content Include="Images\user.png" />
     <Content Include="Images\wholeFamily.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

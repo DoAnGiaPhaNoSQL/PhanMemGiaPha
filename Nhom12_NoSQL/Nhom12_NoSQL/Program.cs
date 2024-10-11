@@ -16,7 +16,7 @@ namespace Nhom12_NoSQL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm("admin"));
+            Application.Run(new LoginForm());
         }
     }
 }
